@@ -37,7 +37,7 @@ void setup() {
     pinMode(LED_DAYNIGHT, OUTPUT);
 
     Serial.begin(9600);   // USB serial monitor
-        ²Serial1.begin(9600);  // HC-05 serial communication
+        Serial1.begin(9600);  // HC-05 serial communication
     randomSeed(analogRead(0));  // Random seed for buzzer tones
 
     Serial.println("System ready.");
